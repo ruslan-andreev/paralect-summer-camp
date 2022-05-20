@@ -1,0 +1,69 @@
+@media screen and (max-width: 1024px){
+    .user-page{
+        flex-direction: column;
+    }
+    .user-info{
+        display: flex;
+        min-height: auto;
+        min-width: 100%;
+    }
+    .user-info__wrapper{
+        margin-left: 60px;
+        min-width: 242px;
+    }
+    .user-repository{
+        max-width: none;
+    }
+    .empty-repository{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width: 648px){
+    .user-page{
+        padding-top: 22px;
+    }
+    .pagination-wrapper{
+        flex-direction: column;
+    }
+    .pagination-counter {
+        text-align: end;
+        color: #808080;
+        margin-right: 8px; 
+        margin-bottom: 12px;  
+    }
+}
+
+@media screen and (max-width: 514px){
+   .user-info__wrapper{
+       margin-left: 40px;
+   }
+   .user-name{
+    font-size: 22px;
+   }
+   .user-repository__header{
+       font-size: 24px;
+   }
+   .repository-item__title{
+    font-size: 20px;
+   }
+}
+@media screen and (max-width: 468px){
+    .user-info{
+        flex-direction: column;
+    }
+    .user-info__image {
+        width: 100%;
+        max-width: 240px;
+        margin: 0px  auto;
+        margin-bottom: 18px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .user-info__wrapper{
+        margin-left: 0;
+        margin-bottom: 22px;
+    }
+    .repository-item {
+        padding: 16px 14px 16px 14px;
+    }   
+}
